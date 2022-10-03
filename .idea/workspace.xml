@@ -5,18 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2d6a2a7-26a0-4804-9eaa-fd94ef2283e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/AddMealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/AddMealTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/GetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/LoggingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/LoggingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/PostTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FRcj99Wdf6s35TuOafw279RMqc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,9 +48,118 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.AddMealTest.addDelMealTestOne">
+    <configuration name="AddMealTest.addDelMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework3" />
+      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
+      <option name="METHOD_NAME" value="addDelMealTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddMealTest.addDelMealTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework3" />
+      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
+      <option name="METHOD_NAME" value="addDelMealTestOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddMealTest.addDelMealTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework3" />
+      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
+      <option name="METHOD_NAME" value="addDelMealTestTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTest.getMinCarbsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework3" />
+      <option name="MAIN_CLASS_NAME" value="Homework3.GetTest" />
+      <option name="METHOD_NAME" value="getMinCarbsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetTest.getMinZincTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework3" />
+      <option name="MAIN_CLASS_NAME" value="Homework3.GetTest" />
+      <option name="METHOD_NAME" value="getMinZincTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BEJHomework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BEJHomework" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddMealTest.addDelMealTestOne" />
+        <item itemvalue="JUnit.AddMealTest.addDelMealTest" />
+        <item itemvalue="JUnit.AddMealTest.addDelMealTestTwo" />
+        <item itemvalue="JUnit.GetTest.getMinZincTest" />
+        <item itemvalue="JUnit.GetTest.getMinCarbsTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
