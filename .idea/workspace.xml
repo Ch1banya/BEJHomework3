@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2d6a2a7-26a0-4804-9eaa-fd94ef2283e7" name="Changes" comment="">
+    <list default="true" id="b2d6a2a7-26a0-4804-9eaa-fd94ef2283e7" name="Changes" comment="Homework 4">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/api/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/dto/GetCategoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/utils/LoggingInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework5/utils/RetrofitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/CreateProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework5/GetCategoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/AddMealTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/AddMealTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/GetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/LoggingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/LoggingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Homework3/PostTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +52,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,82 +65,80 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AddMealTest.addDelMealTestOne">
-    <configuration name="AddMealTest.addDelMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetCategoryTest">
+    <configuration name="CreateProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BEJHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework3.*" />
+          <option name="PATTERN" value="Homework5.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework3" />
-      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
-      <option name="METHOD_NAME" value="addDelMealTest" />
+      <option name="PACKAGE_NAME" value="Homework5" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.CreateProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateProductTest.createProductInFoodCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework5" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.CreateProductTest" />
+      <option name="METHOD_NAME" value="createProductInFoodCategoryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddMealTest.addDelMealTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BEJHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework3.*" />
+          <option name="PATTERN" value="Homework5.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework3" />
-      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
-      <option name="METHOD_NAME" value="addDelMealTestOne" />
+      <option name="PACKAGE_NAME" value="Homework5" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.GetCategoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework5.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework5" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddMealTest.addDelMealTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Utils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BEJHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework3.*" />
+          <option name="PATTERN" value="Homework5.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework3" />
-      <option name="MAIN_CLASS_NAME" value="Homework3.AddMealTest" />
-      <option name="METHOD_NAME" value="addDelMealTestTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetTest.getMinCarbsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BEJHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework3" />
-      <option name="MAIN_CLASS_NAME" value="Homework3.GetTest" />
-      <option name="METHOD_NAME" value="getMinCarbsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetTest.getMinZincTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BEJHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework3" />
-      <option name="MAIN_CLASS_NAME" value="Homework3.GetTest" />
-      <option name="METHOD_NAME" value="getMinZincTest" />
+      <option name="PACKAGE_NAME" value="Homework5" />
+      <option name="MAIN_CLASS_NAME" value="Homework5.Utils" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddMealTest.addDelMealTestOne" />
-        <item itemvalue="JUnit.AddMealTest.addDelMealTest" />
-        <item itemvalue="JUnit.AddMealTest.addDelMealTestTwo" />
-        <item itemvalue="JUnit.GetTest.getMinZincTest" />
-        <item itemvalue="JUnit.GetTest.getMinCarbsTest" />
+        <item itemvalue="JUnit.GetCategoryTest" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.CreateProductTest.createProductInFoodCategoryTest" />
+        <item itemvalue="JUnit.CreateProductTest" />
+        <item itemvalue="JUnit.Utils.test" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +176,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664458469458</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 4">
+      <created>1664790521126</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664790521126</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 4" />
   </component>
 </project>
